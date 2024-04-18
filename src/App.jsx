@@ -2,18 +2,27 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './index.css'
 
+import { DarkThemeToggle, Flowbite, Button } from "flowbite-react";
+import { CookieBanner } from './components/CookieBanner';
+import Nav from "./components/Navbar.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-<div className="bg-blue-700 p-4">
-      <h1 className="text-6xl font-bold  underline">Hello from Tailwind CSS (blue bg/underline)!</h1>
+    <Flowbite>
+      <Nav/>
+
+        
+    <div className='font-6xl font-black mt-32'>
+    <Button>Click me</Button>;
+
+      just some filler text
+      <CookieBanner/>
+      <DarkThemeToggle />
     </div>
-    </>
+    </Flowbite>
   )
 }
 
