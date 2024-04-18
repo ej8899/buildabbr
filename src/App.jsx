@@ -7,6 +7,9 @@ import { DarkThemeToggle, Flowbite, Button } from "flowbite-react";
 import { CookieBanner } from './components/CookieBanner';
 import Nav from "./components/Navbar.jsx";
 
+import "./data/data.jsx"
+import { mainData } from './data/data.jsx';
+
 function App() {
 
 
@@ -19,6 +22,7 @@ function App() {
     <Button>Click me</Button>;
 
       just some filler text
+      {mainData[0].abbr}
       <CookieBanner/>
       <DarkThemeToggle />
     </div>
