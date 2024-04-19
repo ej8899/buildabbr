@@ -732,14 +732,7 @@ export const mainData =
       "area": "",
       "seeAlso": []
   },
-  {
-      "abbr": "FHECOR",
-      "title": "FHECOR Ingenieros Consultores",
-      "description": "",
-      "image": "",
-      "area": "",
-      "seeAlso": []
-  },
+
   {
       "abbr": "FOUO",
       "title": "For official use only",
@@ -836,14 +829,7 @@ export const mainData =
       "area": "",
       "seeAlso": []
   },
-  {
-      "abbr": "IBI",
-      "title": "An architectural company working with AECOM",
-      "description": "",
-      "image": "",
-      "area": "",
-      "seeAlso": []
-  },
+
   {
       "abbr": "IC",
       "title": "Independent Certifier",
@@ -1741,7 +1727,7 @@ export const mainData =
       "seeAlso": []
   },
   {
-      "abbr": "mecp",
+      "abbr": "MECP",
       "title": "ministry of environment conservation & parks",
       "description": "",
       "image": "",
